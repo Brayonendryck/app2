@@ -1,0 +1,28 @@
+.elementor-kit-5{--e-global-color-primary:#EEDD09;--e-global-color-secondary:#EEDD09;--e-global-color-text:#FFFFFF;--e-global-color-accent:#EEDD09;--e-global-color-13cd243:#0D0D0D;--e-global-color-5844c88:#090909;--e-global-color-48020a0:#F32C2C;--e-global-color-10252a0:#00FFB3;--e-global-color-179f0e9:#131313;--e-global-color-080905e:#0D0D0DE6;--e-global-typography-primary-font-family:"Poppins";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Poppins";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Poppins";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Poppins";--e-global-typography-accent-font-weight:500;color:var( --e-global-color-text );background-color:#000000;}.elementor-kit-5 a{color:var( --e-global-color-primary );}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1140px;}.e-con{--container-max-width:1140px;}.elementor-widget:not(:last-child){margin-block-end:20px;}.elementor-element{--widgets-spacing:20px 20px;}{}h1.entry-title{display:var(--page-title-display);}.elementor-kit-5 e-page-transition{background-color:#FFBC7D;}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}/* Start custom CSS */body, html {
+overflow-x: hidden !important;
+}
+
+/* Estilo para a div com a imagem de fundo */
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 33vh; /* Equivalente a h-1/3 em Tailwind, 1/3 da altura da viewport */
+  background-image: url('../images/k5yiUGN5lRQD.jpg');
+  background-size: cover; /* bg-cover em Tailwind */
+  background-repeat: no-repeat; /* bg-no-repeat em Tailwind */
+  background-position: center; /* bg-center em Tailwind */
+  width: 100%;
+}
+
+/* Estilo para a div com o gradiente */
+.gradient-overlay {
+  position: absolute;
+  top: 50%; /* Começa na metade da tela, como no seu código Tailwind */
+  left: 0;
+  right: 0;
+  height: 50vh; /* A altura da metade inferior da tela */
+  background: linear-gradient(to bottom, transparent, black); /* Degradê de transparente para preto */
+  width: 100%;
+}/* End custom CSS */
